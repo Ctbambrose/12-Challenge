@@ -1,0 +1,70 @@
+/*root config start*/
+* {
+    margin: 0;
+}
+:root {
+    /*Color Scheme*/
+    --primaryColor: #1D3461;
+    --secondaryColor: #376996;
+    --tertiaryColor: #6290C8;
+    --primaryFontColor: #829CBC;
+    --secondaryFontColor: #DFF4ED;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*root config end*/
+
+/*header config start*/
+.header {
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.name {
+    color: var(--primaryFontColor);
+    padding: 10px;
+}
+
+.name br {
+    display: block;
+    content: "";
+    padding: 1 px; 
+}
+
+.name .lastname {
+    display: inline-block;
+    text-indent: 30px;
+}
+
+.navigation {
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    background-color: var(--tertiaryColor);
+    padding: 5px 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--secondaryFontColor)
+}
+
+/*header config end*/
+
+/*content config start*/
+/*content config end*/
+
+/*footer config start*/
+/*footer config end*/
