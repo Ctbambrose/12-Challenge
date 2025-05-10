@@ -1,19 +1,36 @@
-import {Link, useLocation} from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
-    const currentPage=useLocation().pathname;
+    const currentPage = useLocation().pathname;
 
     return (
-        <ul>
-            <li>
-                <Link
-                    to="/"
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                >
-                    Home
-                </Link>
-            </li>
-        </ul>
+        <header className="header">
+            <h1 className='name'>Colton<br/><span className='lastname'>Ambrose</span></h1>
+            <nav className='navigation'>
+                <ul>
+                    <li>
+                        <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+                            AboutMe
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
+                            Pofrtfolio
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>
+                            Contact
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
+                            Resume
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 
 }
