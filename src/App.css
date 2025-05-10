@@ -67,4 +67,35 @@ padding: 20px;
 /*content config end*/
 
 /*footer config start*/
+.footer {
+    background-color: var(--secondaryColor);
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 10px 20px;
+}
+
+.social ul {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.social li {
+    background-color: var(--tertiaryColor);
+    padding: 5px 10px;
+}
+
+.social-icon {
+    height: 30px; /* adjust to your desired size */
+    width: 30px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* slight zoom on hover */
+}
 /*footer config end*/
