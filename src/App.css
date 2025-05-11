@@ -63,8 +63,45 @@ padding: 20px;
 
 /*header config end*/
 
-/*content config start*/
-/*content config end*/
+/*AboutMe config start*/
+.about-me {
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture {
+    width: 30%;
+}
+
+.picture img {
+    width: 300px;
+    padding: 100px;
+}
+
+.bio {
+    width: 60%;
+    color: var(--primaryFontColor);
+}
+
+.bio h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bio p {
+    padding: 20px 100px;
+}
+
+/* .bio br {
+    display: block;
+    content: "";
+    padding: 1 px; 
+} */
+
+/*AboutMe config end*/
 
 /*footer config start*/
 .footer {
