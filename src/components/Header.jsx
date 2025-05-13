@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
-    const currentPage = useLocation().pathname;
+    const location = useLocation();
+    const currentPage = location.pathname;
 
     return (
         <header className="header">
@@ -15,7 +16,7 @@ function Header() {
                     </li>
                     <li>
                         <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
-                            Pofrtfolio
+                        Portfolio
                         </Link>
                     </li>
                     <li>
