@@ -10,15 +10,10 @@ function AboutMe() {
                     About Me
                 </h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+I am a ten-year veteran of the IT industry working as an implementation engineer who is looking to make a shift into the development side. I have experience with Linux server and MySQL in my current position. I also have experience with project management, extensive client interaction daily, as well as being in a mentoring position for up-and-coming IT professionals.
                     <br />
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
-                    vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus
-                    leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus
-                    bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
-                    Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia
-                    nostra inceptos himenaeos.
+From a development position I do have small amounts of professional experience doing web development contacting after college. I have recently been certified in full stack development. The languages, frameworks, and other tools that I have experience with are: HTML, CSS, JavaScript, TypeScript, Python, Node.js, PostgreSQL, MongoDB, and React  to name a few.
                 </p>
             </article>
         </div>

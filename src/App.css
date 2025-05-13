@@ -11,6 +11,17 @@
     --secondaryFontColor: #DFF4ED;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.portfolio-app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 /*root config end*/
 
 /*header config start*/
@@ -19,11 +30,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* height: 10%; */
 } 
 
 .name {
     color: var(--primaryFontColor);
-    padding: 10px;
+    padding: 5px;
+    padding-left: 80px;
+    font-size: 40px;
 }
 
 .name br {
@@ -34,7 +48,7 @@
 
 .name .lastname {
     display: inline-block;
-    text-indent: 30px;
+    text-indent: 40px;
 }
 
 .navigation {
@@ -45,7 +59,7 @@ padding: 20px;
 
 .navigation ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -61,7 +75,25 @@ padding: 20px;
     color: var(--secondaryFontColor)
 }
 
+.nav-link {
+    text-decoration: none;
+    color: var(--secondaryFontColor);
+    padding: 4px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-link.active {
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 5px;
+}
 /*header config end*/
+
+/*Content config start*/
+.content {
+    flex-grow: 1;
+    background-color: var(--primaryColor); /* optional background */
+}
 
 /*AboutMe config start*/
 .about-me {
@@ -76,8 +108,11 @@ padding: 20px;
 }
 
 .picture img {
-    width: 300px;
-    padding: 100px;
+    width: 350px;
+    padding: 40px;
+    padding-left: 60px;
+    max-width: 100%;
+    height: auto;
 }
 
 .bio {
@@ -92,7 +127,7 @@ padding: 20px;
 }
 
 .bio p {
-    padding: 20px 100px;
+    padding: 20px 50px;
 }
 
 /* .bio br {
@@ -106,8 +141,6 @@ padding: 20px;
 /*footer config start*/
 .footer {
     background-color: var(--secondaryColor);
-    /* display: flex; */
-    /* align-items: center; */
     padding: 10px 20px;
 }
 

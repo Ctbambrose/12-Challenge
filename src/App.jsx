@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='portfolio-app'>
       <Header />
-      <main className="mx-3">
+      <main className="content">
         <Outlet />
       </main>
       <Footer />
