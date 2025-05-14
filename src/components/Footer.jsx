@@ -6,17 +6,17 @@ function Footer() {
                 <ul>
                     <li>
                         <a href="https://www.linkedin.com/in/colton-ambrose-08935890/">
-                            <img className='social-icon' src='src/assets/InBug-White.png' alt='LinkedIn'/>
+                            <img className='social-icon' src='public/assets/InBug-White.png' alt='LinkedIn'/>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/Ctbambrose">
-                            <img className='social-icon' src='src/assets/github-mark-white.png' alt="GitHub"/>
+                            <img className='social-icon' src='public/assets/github-mark-white.png' alt="GitHub"/>
                         </a>
                         </li>
                         <li>
                         <a href="https://stackoverflow.com/users/29160206/colton-ambrose">
-                            <img className='social-icon' src='src/assets/Stack_Overflow_icon.png' alt="OverStack"/>
+                            <img className='social-icon' src='public/assets/Stack_Overflow_icon.png' alt="OverStack"/>
                         </a>
                     </li>
                 <img id='gitHub'/>
