@@ -30,7 +30,6 @@ html, body, #root {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 10%; */
 } 
 
 .name {
@@ -92,7 +91,18 @@ padding: 20px;
 /*Content config start*/
 .content {
     flex-grow: 1;
-    background-color: var(--primaryColor); /* optional background */
+    background-color: var(--primaryColor);
+    color: var(--primaryFontColor);
+}
+
+.content h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.content p {
+    padding: 20px 50px;
 }
 
 /*AboutMe config start*/
@@ -145,8 +155,8 @@ padding: 20px;
 .contact {
     display: flex;
     flex-direction: column;
-    align-items: center;        /* center children horizontally */
-    justify-content: center;    /* center children vertically */
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: var(--primaryFontColor);
 }
@@ -159,7 +169,7 @@ padding: 20px;
 
 .contact form {
     width: 100%;
-    max-width: 500px;           /* limit form width */
+    max-width: 500px;
     display: block;
     margin-top: 20px;
 }
@@ -171,6 +181,28 @@ padding: 20px;
 }
 
 /*Contact config end*/
+
+/*Resume config start*/
+.resume {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.resume a {
+    color: var(--primaryFontColor);
+}
+
+.proficiencies{
+    padding: 10px;
+}
+
+.download{
+    padding: 20px;
+}
+/*Resume config end*/
 
 /*footer config start*/
 .footer {
@@ -193,13 +225,13 @@ padding: 20px;
 }
 
 .social-icon {
-    height: 30px; /* adjust to your desired size */
+    height: 30px;
     width: 30px;
     object-fit: contain;
     transition: transform 0.2s;
 }
 
 .social-icon:hover {
-    transform: scale(1.1); /* slight zoom on hover */
+    transform: scale(1.1);
 }
 /*footer config end*/

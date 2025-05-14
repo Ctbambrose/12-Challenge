@@ -3,7 +3,7 @@ function Contact() {
     return (
         <div className="contact">
             <h2>Contact Me</h2>
-            <form action="/submit-form" method="POST">
+            <form action="https://formspree.io/f/xeogpngp" method="POST">
                 <label for="name">Name:</label>
                 <br/>
                 <input type="text" id="name" name="name" required />
