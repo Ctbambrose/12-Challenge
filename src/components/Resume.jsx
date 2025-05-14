@@ -29,7 +29,7 @@ function Resume() {
             </ul>
             </div>
             <div className="download">
-            <h3>Dowload my <a href="src/assets/Colton_Ambrose_RESUME-NCI.pdf">resume</a></h3>
+            <h3>Dowload my <a href="public/assets/Colton_Ambrose_RESUME-NCI.pdf">resume</a></h3>
             </div>
         </div>
 

@@ -191,27 +191,27 @@ body,
 }
 
 .weather {
-    background-image: url(../src/assets/WeatherDashboard.png);
+    background-image: url(../public/assets/WeatherDashboard.png);
 }
 
 .employee {
-   background-image: url(../src/assets/EmployeeTracker.png); 
+   background-image: url(../public/assets/EmployeeTracker.png); 
 }
 
 .reunion {
-    background-image: url(../src/assets/FamilyReunion.png); 
+    background-image: url(../public/assets/FamilyReunion.png); 
 }
 
 .farm {
-background-image: url(../src/assets/theFarm.png); 
+background-image: url(../public/assets/theFarm.png); 
 }
 
 .blog {
-   background-image: url(../src/assets/Blog.png);  
+   background-image: url(../public/assets/Blog.png);  
 }
 
 .readme {
-    background-image: url(../src/assets/README.png); 
+    background-image: url(../public/assets/README.png); 
 }
 /*Portfolio config end*/
 
