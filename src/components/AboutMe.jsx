@@ -3,7 +3,7 @@ function AboutMe() {
     return (
         <div className="about-me">
             <article className="picture">
-                <img src='public/assets/Colton-Ambrose.jpeg' alt='Image of Colton Ambrose' />
+                <img src='assets/Colton-Ambrose.jpeg' alt='Image of Colton Ambrose' />
             </article>
             <article className="bio">
                 <h2>
