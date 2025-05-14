@@ -2,6 +2,7 @@
 * {
     margin: 0;
 }
+
 :root {
     /*Color Scheme*/
     --primaryColor: #1D3461;
@@ -12,7 +13,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
     height: 100%;
     margin: 0;
 }
@@ -22,6 +25,7 @@ html, body, #root {
     display: flex;
     flex-direction: column;
 }
+
 /*root config end*/
 
 /*header config start*/
@@ -30,7 +34,7 @@ html, body, #root {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+}
 
 .name {
     color: var(--primaryFontColor);
@@ -42,7 +46,7 @@ html, body, #root {
 .name br {
     display: block;
     content: "";
-    padding: 1 px; 
+    padding: 1 px;
 }
 
 .name .lastname {
@@ -51,9 +55,9 @@ html, body, #root {
 }
 
 .navigation {
-justify-content: space-between;
-align-items: center;
-padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .navigation ul {
@@ -86,6 +90,7 @@ padding: 20px;
     color: white;
     border-radius: 5px;
 }
+
 /*header config end*/
 
 /*Content config start*/
@@ -149,6 +154,65 @@ padding: 20px;
 /*AboutMe config end*/
 
 /*Portfolio config start*/
+.portfolio {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project {
+  height: 200px;
+  background-color: var(--tertiaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+}
+.project a {
+    text-decoration: none;
+    color: var(--primaryFontColor);
+}
+
+.weather {
+    background-image: url(../src/assets/WeatherDashboard.png);
+}
+
+.employee {
+   background-image: url(../src/assets/EmployeeTracker.png); 
+}
+
+.reunion {
+    background-image: url(../src/assets/FamilyReunion.png); 
+}
+
+.farm {
+background-image: url(../src/assets/theFarm.png); 
+}
+
+.blog {
+   background-image: url(../src/assets/Blog.png);  
+}
+
+.readme {
+    background-image: url(../src/assets/README.png); 
+}
 /*Portfolio config end*/
 
 /*Contact config start*/
@@ -174,7 +238,8 @@ padding: 20px;
     margin-top: 20px;
 }
 
-.contact input, textarea {
+.contact input,
+textarea {
     width: 60%;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -184,7 +249,7 @@ padding: 20px;
 
 /*Resume config start*/
 .resume {
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -195,13 +260,14 @@ padding: 20px;
     color: var(--primaryFontColor);
 }
 
-.proficiencies{
+.proficiencies {
     padding: 10px;
 }
 
-.download{
+.download {
     padding: 20px;
 }
+
 /*Resume config end*/
 
 /*footer config start*/
@@ -234,4 +300,5 @@ padding: 20px;
 .social-icon:hover {
     transform: scale(1.1);
 }
+
 /*footer config end*/
